@@ -1,0 +1,43 @@
+Check!
+Bishop.isValideMove black bsp 5 5 5 5
+Bishop.isValideMove black bsp 4 3 4 3
+Bishop.isValideMove black bsp 5 5 5 5
+Bishop.isValideMove black bsp 4 3 4 3Exception in thread "AWT-EventQueue-0" java.lang.ArrayIndexOutOfBoundsException: -1
+	at chess.game.pieces.Bishop.isValidMove(Bishop.java:47)
+	at chess.game.GameUtil.validMoves(GameUtil.java:184)
+	at chess.game.GameUtil.whiteIsCheckmate(GameUtil.java:104)
+	at chess.game.GameUtil.isEndOfGame(GameUtil.java:26)
+	at chess.gui.Board.mouseReleased(Board.java:262)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+valideMoves kng 6 7
+Bishop.isValideMove black bsp 5 5 5 5
+Bishop.isValideMove black bsp 4 3 4 3
+Bishop.isValideMove black bsp 5 5 5 5
+Bishop.isValideMove black bsp 4 3 4 3
+Bishop.isValideMove black bsp 5 5 5 5
+Bishop.isValideMove black bsp 5 5 5 5
+Bishop.isValideMove black bsp 4 3 4 3
+Bishop.isValideMove black bsp 5 5 5 5
+valideMoves bsp 4 0
+Bishop.isValideMove white bsp 4 0 4 0
+Bishop.isValideMove white bsp 4 0 4 0
+
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)

@@ -1,0 +1,9 @@
+
+
+(Move is not valid (joueur artificiel (il réessaie)))
+(affichages des états du jeu dans les fenêtres pour corriger les erreurs)
+(pion qui mange un autre et disparition graphique des deux (humain % humain))
+(coup non valide (pion (humain)) pour jeu humain % artificiel)
+(Mémoire (éviter les copies))
+(probleme de couleur de joueur state nextState (game.setState(nextState) dans playMove()))
+(checkmate erreur)
